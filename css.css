@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: none;
+}
+.h2{
+    display: flex;
+    overflow:hidden;
+    position: absolute;
+    border-bottom: 2px solid;
+    height: 30px;
+    width: 35%;
+    gap: 27%;
+    text-align: left;
+}
+.contatoatual{
+    display: flex;
+    justify-items: flex-end;
+    flex: 1 1 100%;
+    align-items: end;
+    justify-content: end;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
+}
+.conversas{
+    display: flex;
+    background-color:rgb(206, 219, 246);
+    height: 640px;
+    width: 35%;
+    margin-left: 20px;
+    margin-top: 15px;
+    z-index: 1;
+    max-height: 650px;
+   
+   
+ }
+ #inner{
+   position: absolute;
+   overflow:hidden;
+   display: flex;
+   flex-wrap: flex;
+   max-height: 600px;
+   flex-direction: column;
+   top: 120px;
+   width: 35%;
+   overflow: scroll;
+   
+  
+ }
+
+ .janelas{
+    background-color: rgb(149, 195, 235);
+    border: 2px solid rgba(197, 160, 160, 0.711);
+    border-radius: 5px;
+    overflow: visible;
+    position:relative;
+    width:100% ;
+    min-width: fit-content;
+    padding: 17px  ;
+    height: 70px;
+    display:flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    
+
+
+
+ }
+ .janelas:hover{
+    cursor: pointer;
+    background-color: rgb(134, 193, 245);
+ }
+ #tela{
+    display: flex;
+ }
+
+body{
+
+    font-family:"Winky Rough", sans-serif;;
+    background-image: url(imagem/backgroung.jpg.jpg);
+    background-size: cover;
+}
+
+.topo{
+    background-color: rgb(179, 200, 243);
+    height: 60px;
+    width: 100%;
+    border: 3px;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style:solid;
+    display: flex;
+    border-color: black;
+  
+}
+
+#menu{
+   
+    position: absolute;
+    align-content: center;
+    height: 60px;
+    left: 20px;
+    
+}
+#menu:hover{
+    cursor: pointer;
+}
+.opcoes{
+    display:flex;
+    margin: none;
+    flex-direction: column;
+    align-items:centers;
+    position: relative;
+    width: 74px;
+    gap: 20px;
+}
+.barraLateral{
+    margin-left: none;
+    width: 80px;
+    height: 680px;
+    overflow: hidden;
+    background-color:rgb(206, 219, 246);
+    border: 3px;
+    border-style:solid;
+    border-color: black
+}
+#mais{
+    background: none;
+    background-color: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#question{
+        background: none;
+        background-color: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+.icones:hover{
+    cursor: pointer;
+}
+.inputarea{
+    
+    position: absolute;
+    align-items:;
+    bottom: 10px;
+    left: 60%;
+    
+}
+#escrever{
+    padding: 9px;
+    padding-inline: 80px;
+    border-radius: 10px;
+}
+#novaconversa{
+padding: 5px;
+min-width:150px;
+border-radius: 4px ; 
+background-color: rgb(107, 239, 107);
+}
+#novaconversa:hover{
+    cursor: pointer;
+    background-color: rgb(24, 241, 24);
+}
+#send{
+    background-color: none;
+    border: none;
+    background: none;
+}
+#send:hover{
+    cursor: pointer;
+    padding: 3px;
+}
+.caixas{
+    background-color: aliceblue;
+    position: absolute;
+   overflow:hidden;
+   display: flex;
+   flex-wrap: flex;
+   max-height: 600px;
+   flex-direction: column;
+   top: 25%;
+   right: 0;
+}
+#enviadas{
+    background-color: rgb(39, 161, 39);
+    padding: 10px;
+    max-width: 300px;
+    word-break: break-word;
+    border: 1px solid rgb(160, 139, 139);
+    border-radius: 8px;
+    background: none;
+}
+.recebidas{
+    background-color: aliceblue;
+    padding: 10px;
+    max-width: 300px;
+    word-break: break-word;
+    border: 1px solid rgb(160, 139, 139);
+    border-radius: 8px;
+    background: none;
+    left: 2;
+}
+.recebidas2{
+    background-color: aliceblue;
+    position: fixed;
+   overflow:hidden;
+   display: flex;
+   flex-wrap: flex;
+   max-height: 600px;
+   flex-direction: column;
+   top: 10%;
+   left: 45%;
+}
+#container3{
+
+}
